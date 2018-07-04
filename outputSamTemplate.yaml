@@ -11,6 +11,6 @@ Resources:
             Path: /TimeResource
           Type: Api
       Handler: index.handler
-      Runtime: nodejs6.10
+      Runtime: nodejs8.11
     Type: AWS::Serverless::Function
 Transform: AWS::Serverless-2016-10-31
